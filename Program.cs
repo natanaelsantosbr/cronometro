@@ -51,7 +51,7 @@ namespace Stopwatch
 
             int currentTime = 0;
 
-            while (currentTime != time)
+            for (int i = 0; currentTime <= time; i++)
             {
                 Console.Clear();
                 currentTime++;
